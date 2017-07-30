@@ -1,0 +1,55 @@
+.main-wrapper {
+  height: 100vh;
+  width: 100vw;
+  background: url('http://i.imgur.com/LPlzeaz.jpg') no-repeat center center fixed;
+  background-size: cover;
+  background-color: hsla(0,0%,100%,0.25);
+  background-blend-mode: overlay;
+  overflow: hidden;
+  font-family: lato;
+  letter-spacing: 0.1em;
+  color: white;
+}
+
+i:hover {
+  color: #2B89D8;
+}
+
+h3 {
+  padding: 0;
+  margin: 0;
+}
+
+a i {
+  font-size: 22px;
+  padding:2px;
+  color: #154166
+}
+
+.right {
+    margin-left: 10px;
+}
+
+ul {
+  list-style: none;
+}
+li {display: inline-block;}
+
+img {
+  border-radius: 50%;
+  border: 3px solid white;
+
+}
+
+.content {
+  position: absolute;
+  top: 25%;
+  bottom: 25%;
+  right: 25%;
+  left: 25%;
+}
+
+.content .left {
+ float: left;
+ margin-right: 15px;
+}
