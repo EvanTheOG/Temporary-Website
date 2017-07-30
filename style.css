@@ -53,3 +53,25 @@ img {
  float: left;
  margin-right: 15px;
 }
+
+/*MOBILE*/
+
+@media screen and (max-width: 960px) {
+
+  .content .left {
+    float: none;
+    text-align: center;
+  }
+
+  a i {
+    color: #499BDF;
+  }
+
+  i:hover {
+    color: #0F2538;
+  }
+  .content {
+    top: 20%;
+  }
+
+}
