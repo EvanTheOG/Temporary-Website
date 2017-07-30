@@ -10,7 +10,6 @@
   letter-spacing: 0.1em;
   color: white;
 }
-
 i:hover {
   color: #2B89D8;
 }
@@ -23,7 +22,7 @@ h3 {
 a i {
   font-size: 22px;
   padding:2px;
-  color: #154166
+  color: #154166;
 }
 
 .right {
@@ -35,9 +34,12 @@ ul {
 }
 li {display: inline-block;}
 
+.left img {
+  border: 5px solid #154166;
+}
+
 img {
   border-radius: 50%;
-  border: 3px solid white;
 
 }
 
